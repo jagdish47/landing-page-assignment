@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment - A Landing Page</title>
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <header
+        class="flex items-center justify-between 0 px-16 py-5 bg-[#f6f9fc]"
+      >
+        <div class="flex items-center">
+          <span class="material-symbols-outlined text-primary pr-2">
+            signal_cellular_pause
+          </span>
+          <h1 class="font-bold font-Inter text-2xl">Starter</h1>
+        </div>
+        <div class="hidden lg:block md:block">
+          <a href="#" class="text-[18px] font-[500] cursor-pointer ml-5"
+            >Docs</a
+          >
+          <a href="#" class="text-[18px] font-[500] cursor-pointer ml-5"
+            >Blog</a
+          >
+          <a href="#" class="text-[18px] font-[500] cursor-pointer ml-5"
+            >Sign in</a
+          >
+          <button
+            class="bg-primary rounded-md px-3 py-1 text-white font-Inter ml-5"
+          >
+            Start Free Trial
+          </button>
+        </div>
+        <div class="block lg:hidden md:hidden">
+          <span class="material-symbols-outlined"> menu </span>
+        </div>
+      </header>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="bg-[#f6f9fc] flex flex-col items-center justify-center">
+      <div class="flex flex-col items-center justify-center">
+        <h1
+          class="text-2xl sm:text-center sm:w-48 lg:w-full md:w-full md:text-5xl lg:text-5xl font-bold font-Inter pt-28 pb-7"
+        >
+          The modern landing page for
+        </h1>
+        <h2
+          class="text-3xl md:text-5xl lg:text-5xl font-extrabold text-primary font-Inter pb-7"
+        >
+          React Developer
+        </h2>
+        <p
+          class="text-sm md:text-xl lg:text-xl text-gray-400 font-Inter pb-7 font-semibold"
+        >
+          The easiest way to build React landing page in seconds.
+        </p>
+      </div>
+      <div class="pb-32 pt-7">
+        <button
+          class="bg-primary rounded-md px-5 py-3 font-bold text-white text-md"
+        >
+          Start your 14-day Free Trial
+        </button>
+      </div>
+    </div>
+
+    <!-- Category Section -->
+    <section
+      class="flex flex-col md:flex-row lg:flex-row items-center justify-evenly my-10 md:my-16 lg:my-16"
+    >
+      <!-- one -->
+      <div
+        class="w-64 text-center flex flex-col items-center justify-center mb-10 lg:mb-0 md:mb-0"
+      >
+        <div
+          class="w-10 h-10 bg-primary_lite flex items-center justify-center rounded-full"
+        >
+          <span class="material-symbols-outlined text-white">
+            stacked_line_chart
+          </span>
+        </div>
+        <h1 class="text-2xl font-bold my-2 font-Inter">Your title</h1>
+        <p class="text-[18px] font-semibold text-gray-400 font-Inter">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+
+      <!-- two -->
+      <div
+        class="w-64 text-center flex flex-col items-center justify-center mb-10 lg:mb-0 md:mb-0"
+      >
+        <div
+          class="w-10 h-10 bg-primary_lite flex items-center justify-center rounded-full"
+        >
+          <span class="material-symbols-outlined text-white"> javascript </span>
+        </div>
+        <h1 class="text-2xl font-bold my-2 font-Inter">Your title</h1>
+        <p class="text-[18px] font-semibold text-gray-400 font-Inter">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+
+      <!-- three -->
+      <div
+        class="w-64 text-center flex flex-col items-center justify-center mb-10 lg:mb-0 md:mb-0"
+      >
+        <div
+          class="w-10 h-10 bg-primary_lite flex items-center justify-center rounded-full"
+        >
+          <span class="material-symbols-outlined text-white">
+            trending_up
+          </span>
+        </div>
+        <h1 class="text-2xl font-bold my-2 font-Inter">Your title</h1>
+        <p class="text-[18px] font-semibold text-gray-400 font-Inter">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+      </div>
+    </section>
+
+    <!-- Feature Section -->
+    <section class="text-center mt-28">
+      <h6 class="text-sm font-bold text-primary font-Poppins">Features</h6>
+      <h1 class="text-4xl font-bold font-Inter mt-2">Your title here</h1>
+      <p
+        class="md:text-[18px] lg:text-[18px] text-[16px] px-10 md:px-0 lg:px-0 md:w-[800px] lg:w-[800px] m-auto text-gray-400 font-Inter font-semibold mt-5"
+      >
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+        malesuada nisi tellus, non imperdiet nisi tempor at.
+      </p>
+    </section>
+
+    <!-- shopping cart -->
+    <section
+      class="flex flex-col md:flex-row lg:flex-row items-center justify-center mt-28 gap-20"
+    >
+      <div class="flex items-center justify-center flex-col">
+        <h1 class="font-bold text-4xl font-Inter mb-8">Your title here</h1>
+        <p
+          class="font-semibold font-Poppins text-gray-400 w-[450px] text-center leading-8"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro minus,
+          quibusdam nobis ullam iste eveniet tempore tenetur magni veniam
+          obcaecati quo numquam qui reiciendis officia.
+        </p>
+      </div>
+      <div>
+        <img class="w-96" src="./assets/shopping-image.jpg" />
+      </div>
+    </section>
+
+    <!-- Growth -->
+    <section
+      class="flex flex-col md:flex-row lg:flex-row items-center justify-center mt-5 gap-20"
+    >
+      <div>
+        <img class="w-96" src="./assets/growth-image.jpg" />
+      </div>
+      <div class="flex items-center justify-center flex-col">
+        <h1 class="font-bold text-4xl font-Inter mb-8">Your title here</h1>
+        <p
+          class="font-semibold font-Poppins text-gray-400 w-[450px] text-center leading-8"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Porro minus,
+          quibusdam nobis ullam iste eveniet tempore tenetur magni veniam
+          obcaecati quo numquam qui reiciendis officia.
+        </p>
+      </div>
+    </section>
+  </body>
+</html>
