@@ -1,5 +1,9 @@
 # Landing Page Assignment
 
+## Deployed Link
+
+[LANDING-PAGE-ASSIGNMENT](https://landing-page-assignment-inky.vercel.app/)
+
 ## Setup Project 🚀
 
 **Clone the repository:**
